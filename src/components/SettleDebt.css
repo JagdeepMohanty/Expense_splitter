@@ -1,0 +1,53 @@
+.settle-debt-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.settle-debt-container h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.settle-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.settle-form select,
+.settle-form input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.settle-form button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.settle-form button:hover {
+  background-color: #45a049;
+}
+
+.debt-info {
+  margin: 15px 0;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.debt-info p {
+  margin: 5px 0;
+}
